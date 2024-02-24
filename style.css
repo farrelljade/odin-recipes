@@ -1,4 +1,30 @@
 img {
     height: auto;
     width: 200px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: hsl(0, 1%, 30%);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+#homeH1 {
+    text-align: center;
+}
+
+.homeRecipes {
+    list-style: none;
+    text-align: center;
+}
+
+.li1:hover,
+.li2:hover,
+.li3:hover {
+    transition: 0.3s ease-in-out;
+    font-weight: 700;
 }
